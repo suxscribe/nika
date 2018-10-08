@@ -279,17 +279,17 @@
 						<ul id="video" class="uk-switcher">
 							<li>
 								<div class="youtube">
-									<div class="lazyframe" data-src="https://www.youtube.com/embed/OU7MR09b6B4" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
+									<div class="lazyframe" data-src="https://youtu.be/1kYCwdk5asM" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
 								</div>
 							</li>
 							<li>
 								<div class="youtube">
-									<div class="lazyframe" data-src="https://www.youtube.com/embed/OU7MR09b6B4" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
+									<div class="lazyframe" data-src="https://youtu.be/jI6cnYAvtvc" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
 								</div>
 							</li>
 							<li>
 								<div class="youtube">
-									<div class="lazyframe" data-src="https://www.youtube.com/embed/OU7MR09b6B4" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
+									<div class="lazyframe" data-src="https://youtu.be/oNxtwCr_FYg" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
 								</div>
 							</li>
 						</ul>

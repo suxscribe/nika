@@ -3421,9 +3421,6 @@ font-size: 15px;
 	flex: 1 0 33%;
 	box-sizing: border-box;
 }
-.news.news_teaser.panel {
-	justify-content: flex-start;
-}
 @media (min-width: 960px) {
 	.news-list_hover .news.news_teaser:hover {
 	background: var(--lavender);
@@ -3440,18 +3437,13 @@ font-size: 15px;
 }
 .news.news_teaser .news-text  {
 	font-size: 18px;
-	flex: 1 0 auto;
 }
 .news.news_teaser .article-image {
 
 }
 .news.news_teaser .news-button {
 	margin-top: 28px;
-	text-align: right;
 }
-
-
-.news-list.news-list_articles
 
 @media (min-width: 959px) {
 	.news.news_teaser .news-button {
@@ -3474,7 +3466,7 @@ font-size: 15px;
 	margin-right: 20px;
 	width: 124px;
 }
-.news-list.news-list_articles .article-info {
+.news-list.news-list_articles .article-header .article-info {
 	flex: 1 1 auto;
 }
 
@@ -3488,8 +3480,6 @@ font-size: 15px;
 	display: flex;
 	background: var(--linen);
 	border-width: 0;
-	flex: 0 0 100%;
-	flex-direction: row;
 }
 .news.news_teaser.news_teaser-large .article-image {
 	margin-right: 40px;
@@ -4871,33 +4861,30 @@ div.bx-yandex-map {
 
 /* height */
 
-.block-specs .specs-3, .block-specs .specs-4 {
+.block-article .specs-3, .block-article .specs-4 {
 	
 	position: relative;
 	overflow: hidden;
-
-	height: 100%;
-	box-sizing: border-box;
 }
 
-.block-specs .specs-3 .content-readmore {
+.block-article .specs-3 .content-readmore {
 	overflow: hidden;
 	/*position: absolute;*/
 	height: auto !important;
 }
 
 @media (min-width: 960px) {
-	.block-specs .specs-3 .content-readmore.uk-position-absolute {
+	.block-article .specs-3 .content-readmore.uk-position-absolute {
 		right: 40px;
 		left: 40px;
 
 	}
 
-	.block-specs .specs-3 .content-readmore {
+	.block-article .specs-3 .content-readmore {
 	}
 }
 
-.block-specs .specs-3 .article-readmore {
+.block-article .specs-3 .article-readmore {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -4907,7 +4894,7 @@ div.bx-yandex-map {
 
 }
 
-.block-specs .specs-3 .content-readmore.expanded {
+.block-article .specs-3 .content-readmore.expanded {
 	position: relative !important;
 }
 .min-height-300 {
@@ -4926,7 +4913,6 @@ div.bx-yandex-map {
 	.block-service-desc .service-desc-2 .panel{
 		border-right-width: 0;
 		border-top-width: 0;
-		min-height: 320px;
 	}
 	.block-service-desc .service-desc-3 .panel{
 		border-bottom-width: 0;
@@ -4954,59 +4940,4 @@ div.bx-yandex-map {
 		border-top-width: 0;
 	}
 
-}
-
-/*  */
-.block-map .map-search {
-	position: absolute;
-	top: 40px;
-	display: flex;
-	/* justify-content: center; */
-	 right: auto; 
-	left: 40px;
-	z-index: 1;
-}
-.block-map .map-search .filter-select.form-select .nice-select {
-	width: 350px;
-}
-.block-map .map-search .filter-select.form-select .nice-select .current {
-	background: white;
-	box-shadow: 0 0 15px rgba(68, 68, 68, 0.15);
-}
-
-.block-map .map-search .filter-select.form-select .nice-select .list {
-	max-height: 250px !important;
-}
-.block-map .map-search .filter-select.form-select .nice-select::after {
-	background: var(--lavender);
-}
-
-/*  */
-ymaps .branch-balloon {
-	padding: 12px;
-}
-ymaps .branch-name,
-ymaps .branch-address,
-ymaps .branch-phone,
-ymaps .branch-schedule {
-	font-family: Circe;
-	font-size: 16px;
-	font-weight: 300;
-}
-ymaps .branch-name {
-	font-size: 22px;
-	font-weight: 400;
-	line-height: 26px;
-	margin-bottom: 10px;
-}
-ymaps .branch-address {
-	margin-bottom: 10px;
-}
-ymaps .branch-phone {
-	font-size: 22px;
-	margin-bottom: 10px;
-	font-weight: 400;
-}
-ymaps .branch-schedule {
-	font-size: 13px;
 }

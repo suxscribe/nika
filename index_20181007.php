@@ -776,75 +776,35 @@
 			</div>
 
 			<div class="block block-map uk-hidden-small uk-margin-large-bottom">
-				<!-- <div class="map-search">
+				<div class="map-search">
 					<div class="map-search-box">
 						<input type="text" placeholder="Введите ближайший адрес">
 						<input class="" type="submit" name="" value="">
 					</div>
-				</div> -->
-
-				<div class="map-search uk-form">
-							<div class="uk-form-row">
-								<div class="filter-select form-select">
-									<select class="">
-										<option data-display="Выберите филиал" value="1">Выберите филиал</option>
-										<option value="2">Клиника здоровья семьи и репродукции</option>
-										<option value="3">Клиника здоровья семьи и оригинала</option>
-										<option value="2">Клиника здоровья семьи и репродукции</option>
-										<option value="3">Клиника здоровья семьи и оригинала</option>
-										<option value="2">Клиника здоровья семьи и репродукции</option>
-										<option value="3">Клиника здоровья семьи и оригинала</option>
-										<option value="2">Клиника здоровья семьи и репродукции</option>
-										<option value="3">Клиника здоровья семьи и оригинала</option>
-										<option value="2">Клиника здоровья семьи и репродукции</option>
-										<option value="3">Клиника здоровья семьи и оригинала</option>
-									  </select>
-								</div>
-
-							</div>
 				</div>
-
-				<script src="http://api-maps.yandex.ru/2.1/?load=package.map&amp;lang=ru-RU" type="text/javascript"></script>
+				<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
 				<script type="text/javascript">ymaps.ready(init);
 
 								function init() {
 									var myMap = new ymaps.Map('map', {
 											center: [56.317626, 44.000021],
-											zoom: 13,
-											controls: ['zoomControl']
+											zoom: 13
 										}),
 										collection = new ymaps.GeoObjectCollection(),
 										bounds = myMap.getBounds();
 
-										/*var style = {
-										    balloonContentStyle : {
-										        template : new YMaps.Template('<div>$[name]</div><div>$[description]</div>\
-										        <img src="http://img.yandex.ru/i/m_logo.png" alt=""/>')
-										    }
-										}*/
 
-									var myPlacemark1 = new ymaps.Placemark([56.317635, 44.000010], {
-										balloonContent: '<div class="branch-balloon"><div class="branch-name">Клиника здоровья<br>семьи и репродукции</div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
-										}, {
+									var myPlacemark1 = new ymaps.Placemark([56.317635, 44.000010], {}, {
 										iconLayout: 'default#image',
-										iconImageHref: 'images/map-marker.png',
+										iconImageHref: '/images/map-marker.png',
 										iconImageSize: [50, 50],
-										iconImageOffset: [-25, -25],
-										
-										hideIconOnBalloonOpen: false
+										iconImageOffset: [-25, -25]
 									});
-									
-
-
-									var myPlacemark2 = new ymaps.Placemark([56.329628, 44.012024], {
-										balloonContent: '<div class="branch-balloon"><div class="branch-name">Клиника здоровья<br>семьи и репродукции</div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
-										}, {
+									var myPlacemark2 = new ymaps.Placemark([56.329628, 44.012024], {}, {
 										iconLayout: 'default#image',
-										iconImageHref: 'images/map-marker.png',
+										iconImageHref: '/images/map-marker.png',
 										iconImageSize: [50, 50],
-										iconImageOffset: [-25, -25],
-										
-										hideIconOnBalloonOpen: false
+										iconImageOffset: [-25, -25]
 									});
 
 									myMap.geoObjects.add(myPlacemark1);
