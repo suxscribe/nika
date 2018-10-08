@@ -824,7 +824,7 @@
 										}*/
 
 									var myPlacemark1 = new ymaps.Placemark([56.317635, 44.000010], {
-										balloonContent: '<div class="branch-balloon"><div class="branch-name">Клиника здоровья<br>семьи и репродукции</div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
+										balloonContent: '<div class="branch-balloon"><div class="branch-name"><a href="filial-detail.php">Клиника здоровья<br>семьи и репродукции</a></div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
 										}, {
 										iconLayout: 'default#image',
 										iconImageHref: 'images/map-marker.png',
@@ -837,7 +837,7 @@
 
 
 									var myPlacemark2 = new ymaps.Placemark([56.329628, 44.012024], {
-										balloonContent: '<div class="branch-balloon"><div class="branch-name">Клиника здоровья<br>семьи и репродукции</div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
+										balloonContent: '<div class="branch-balloon"><div class="branch-name"><a href="filial-detail.php">Клиника здоровья<br>семьи и репродукции</a></div><div class="branch-address">Н.Новгород, ул. Ошарская, 38а</div><div class="branch-phone"><a href="tel:+78314351010">+7 (831) 435 10 10</a></div><div class="branch-schedule">Пн-сб: 8:00 - 20:00</div></div>'
 										}, {
 										iconLayout: 'default#image',
 										iconImageHref: 'images/map-marker.png',
