@@ -254,6 +254,32 @@
 									<a href="" class="uk-position-cover"></a>
 								</figure>
 							</li>
+							<li>
+								<div class="branch-lab panel">
+									<div class="uk-flex margin-bottom-x2">
+										<div class="branch-lab-logo uk-flex-item-none "><img src="images/logo-laboratory.svg" width="90" alt=""></div>
+										<div class="uk-flex-item-1">
+											Лаборатории <br />в Нижнем Новгороде
+										</div>
+									</div>
+									<div class="branch-lab-button">
+										<a href="" class="uk-button">Сдать анализы</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="branch-lab panel panel_collapse-left">
+									<div class="uk-flex margin-bottom-x2">
+										<div class="branch-lab-logo uk-flex-item-none "><img src="images/logo-laboratory.svg" width="90" alt=""></div>
+										<div class="uk-flex-item-1">
+											Лаборатории <br />в Арзамасе, Выксе, Дзержинске, Кстово,  Навашино, Сарове
+										</div>
+									</div>
+									<div class="branch-lab-button">
+										<a href="" class="uk-button">Сдать анализы</a>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
