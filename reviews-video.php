@@ -89,6 +89,7 @@
 										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
 										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
 									</div>
+									<a href="https://youtu.be/1kYCwdk5asM" class="uk-position-cover" data-uk-lightbox></a>
 								</div>
 								<div class="review review_video panel">
 									<div class="review-image">
@@ -98,6 +99,7 @@
 										<div class="review-name">Надежда</div>
 										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
 										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
+										<a href="https://youtu.be/1kYCwdk5asM" class="uk-position-cover" data-uk-lightbox></a>
 									</div>
 								</div>
 								<div class="review review_video panel">
@@ -108,6 +110,18 @@
 										<div class="review-name">Надежда</div>
 										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
 										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
+										<a href="https://youtu.be/1kYCwdk5asM" class="uk-position-cover" data-uk-lightbox></a>
+									</div>
+								</div>
+								<div class="review review_video panel uk-hidden">
+									<div class="review-image">
+										<img src="images/branch-teaser-02.jpg" alt="">
+									</div>
+									<div class="review-content">										
+										<div class="review-name">Надежда</div>
+										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
+										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
+										<a href="https://youtu.be/1kYCwdk5asM" class="uk-position-cover" data-uk-lightbox></a>
 									</div>
 								</div>
 								<div class="review review_video panel uk-hidden">
@@ -119,16 +133,7 @@
 										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
 										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
 									</div>
-								</div>
-								<div class="review review_video panel uk-hidden">
-									<div class="review-image">
-										<img src="images/branch-teaser-02.jpg" alt="">
-									</div>
-									<div class="review-content">										
-										<div class="review-name">Надежда</div>
-										<div class="review-date">105 тыс. просмотров  12 марта 2018</div>
-										<div class="review-text">Добрый день! У меня отрицательный резус-фактор (у мужа - положительный). После первых родов в роддоме сделали иммуноглобулин, нужно ли во вторую беременность на 28 неделе делать иммуноглобулин (антител по анализам нет)?</div>
-									</div>
+									<a href="https://youtu.be/1kYCwdk5asM" class="uk-position-cover" data-uk-lightbox></a>
 								</div>
 
 							</div>

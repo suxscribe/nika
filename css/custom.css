@@ -1024,9 +1024,14 @@ header h1 {
 .branches-list_small > li:last-of-type{
 	padding-right: 20px;
 }
-.branches-list_small .branch-teaser {
+.branches-list_small .branch-teaser,
+.branches-list_small .branch-lab {
 	padding-bottom: 0;
 	height: 100%;
+	box-sizing: border-box;
+}
+.branches-list_small .branch-lab {
+	border-left-width: 0;
 }
 .branches-list_small .branch-teaser .uk-overlay-panel::before {
 	margin-bottom: 22px;
@@ -3365,6 +3370,7 @@ font-size: 15px;
 .reviews-list .review.review_video {
 	display: flex;
 	padding: 28px;
+	position: relative;
 }
 .reviews-list .review.review_video .review-image {
 	flex: 0 0 30%;
