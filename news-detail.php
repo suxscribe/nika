@@ -95,7 +95,7 @@
 				<h3>Оформление таблицы</h3>
 
 				<div class="uk-overflow-container">
-					<table class="schedule-table uk-table uk-table-striped">
+					<table class="content-table uk-table uk-table-striped">
 						<thead>
 							<tr>
 								<th></th>
@@ -110,43 +110,43 @@
 						<tbody>
 							<tr>
 								<td>Очень высокая</td>
-								<td>0</td>
-								<td>1</td>
-								<td>3</td>
-								<td>3</td>
-								<td>4</td>
+								<td class="uk-text-center">0</td>
+								<td class="uk-text-center">1</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">4</td>
 							</tr>
 							<tr>
 								<td>Высокая</td>
-								<td>0</td>
-								<td>1</td>
-								<td>3</td>
-								<td>3</td>
-								<td>4</td>
+								<td class="uk-text-center">0</td>
+								<td class="uk-text-center">1</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">4</td>
 							</tr>
 							<tr>
 								<td>Средняя</td>
-								<td>0</td>
-								<td>1</td>
-								<td>3</td>
-								<td>3</td>
-								<td>4</td>
+								<td class="uk-text-center">0</td>
+								<td class="uk-text-center">1</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">4</td>
 							</tr>
 							<tr>
 								<td>Низкая</td>
-								<td>0</td>
-								<td>1</td>
-								<td>3</td>
-								<td>3</td>
-								<td>4</td>
+								<td class="uk-text-center">0</td>
+								<td class="uk-text-center">1</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">4</td>
 							</tr>
 							<tr>
 								<td>Нулевая</td>
-								<td>0</td>
-								<td>1</td>
-								<td>3</td>
-								<td>3</td>
-								<td>4</td>
+								<td class="uk-text-center">0</td>
+								<td class="uk-text-center">1</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">3</td>
+								<td class="uk-text-center">4</td>
 							</tr>
 						</tbody>
 					</table>

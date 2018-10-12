@@ -3197,7 +3197,7 @@ header .uk-subnav-pill > * > :hover, .uk-subnav-pill > * > :focus {
 
 .schedule-table td {
 	border-bottom: none;
-	padding: 30px 8px;
+	padding: 12px 8px;
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 }
@@ -3249,6 +3249,10 @@ header .uk-subnav-pill > * > :hover, .uk-subnav-pill > * > :focus {
 }
 .schedule-date:hover .schedule-signup {
 	opacity: 1;
+}
+
+.schedule-date + .schedule-date {
+	margin-top: 10px;
 }
 
 .schedule-header {
@@ -3779,8 +3783,9 @@ font-size: 15px;
 	flex-wrap: wrap;
 }
 .files > .file {
-	flex: 0 0 auto;
+	flex: 0 0 180px;
 	margin-right: 52px;
+	margin-bottom: 28px;
 	display: flex;
 	align-items: center;
 }
@@ -4581,6 +4586,29 @@ font-size: 15px;
 }
 
 
+/* TABLE */
+.content-table.uk-table.uk-table-striped {
+	font-size: 18px;
+	font-weight: 400;
+}
+.content-table.uk-table.uk-table-striped th {
+	background: var(--turquoise);
+	font-weight: 400;
+	padding: 18px 8px;
+	
+}
+.content-table.uk-table.uk-table-striped td {
+	border-bottom: none;
+	padding: 18px 8px;
+	border-right: 1px solid #fff;
+	vertical-align: middle;
+	background: rgba(221, 238, 255, 0.6);
+}
+.content-table.uk-table.uk-table-striped tr:nth-of-type(2n) td, .content-table.uk-table.uk-table-striped tr:nth-of-type(2n) th {
+	background: var(--lavender);
+}
+
+
 /* SCHEDULE TABLE */
 table.schedule-table {
 	width: 100%;
@@ -4638,7 +4666,7 @@ table.schedule-table td {
 	/*border-top: 0;*/
 	/*padding: 20px;*/
 	/*min-height: 101px;*/
-	height: 101px;
+	height: 121px;
 	box-sizing: border-box;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -4646,11 +4674,16 @@ table.schedule-table td {
 	-ms-transition: all .3s ease;
 	/*width: 155px;*/
 	background: rgba(221, 238, 255, 0.6);
+	display: flex;
+
+	flex-direction: column;
+
+	justify-content: center;
 }
 .rtable--flip td, .rtable--flip th {
 	display: block;
 	position: relative;
-	height: 101px;
+	height: 121px;
 }
 .rtable--flip th {
 	width: 260px;
@@ -4689,10 +4722,13 @@ th.schedule-td-split {
 	height: 57px;
 	padding: 0 14px;
 	line-height: 57px;
+	display: block;
 }
 .schedule-table .schedule-table-td_top span{
 	font-size: 18px;
 }
+
+
 
 
 /* 404 */
@@ -5016,4 +5052,18 @@ ymaps .branch-phone {
 }
 ymaps .branch-schedule {
 	font-size: 13px;
+}
+
+/*  */
+@media (min-width:960px) {
+
+	.block-specs > .uk-grid > .service-desc-2:last-child {
+		flex-grow: 1;
+		/* border-right-width: 1px; */
+	}
+
+	.block-specs > .uk-grid > .service-desc-2:last-child .panel	{
+		border-right-width: 1px;
+		margin-right: 	1px;
+	}
 }
