@@ -849,7 +849,10 @@ header h1 {
 }
 /* Header Mobile Slider */
 
-
+.uk-breadcrumb > li > a:hover {
+	color: rgba(255,255,255,0.6);
+	text-decoration: underline;
+}
 
 
 
@@ -1049,6 +1052,12 @@ header h1 {
 .branch-teaser .branch-address {
 	font-size: 16px;
 	margin-bottom: 12px;
+}
+.branch-teaser .branch-address a:hover {
+	text-decoration: underline;
+
+}
+.branch-teaser:not(.branch-teaser_alt):hover .branch-address {
 	text-decoration: underline;
 }
 .branch-teaser.branch-teaser_light .branch-address {
@@ -1134,9 +1143,13 @@ header h1 {
 }
 
 .branch-teaser.branch-teaser_light .uk-overlay-panel a {
-	color: var(--deep-purple);
+	/*color: var(--deep-purple);*/
+	text-decoration: none;
 }
-
+.branch-teaser.branch-teaser_light .uk-overlay-panel a:hover {
+	color: var(--link-hover);
+	text-decoration: underline;
+}
 @media (max-width: 959px) {
 	.branch-teaser.branch-teaser_alt .uk-overlay-panel {
 		border:1px solid var(--border);
@@ -1211,7 +1224,10 @@ header h1 {
 .uk-tab > li:not(.uk-active) > a:hover, .uk-tab > li:not(.uk-active) > a:focus, .uk-tab > li.uk-open:not(.uk-active) > a {
 	padding-bottom: 0;
 	margin-bottom: 0;
+	color: var(--muted-color);
 }
+
+
 .uk-tab > li:nth-child(n+2) > a {
 	margin-left: 0;
 }
