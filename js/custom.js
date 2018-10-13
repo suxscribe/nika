@@ -303,7 +303,7 @@ $(document).ready(function() {
 	  			$('#popup-cookies').removeClass('uk-hidden');
   	    }
   	    Cookies.set('hideModal', true, {
-	  		expires: 7,
+	  		expires: 365,
 	  		path: '/'
 	  	  });
   	});

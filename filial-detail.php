@@ -144,6 +144,7 @@
 				</div>
 			</div>
 
+						
 
 			<div class="block block-actions uk-margin-large-bottom uk-hidden-large">
 				<div class="panel panel_bg panel-news-2">
@@ -317,6 +318,27 @@
 
 								</div>
 							</div>
+
+							<div class="uk-margin-large-bottom"></div>
+
+								<div class="panel panel_white">
+									<div class="panel-inner">
+										
+										<div class="action-placeholder">
+											<div class="placeholder-image">
+												<img src="images/banner-placeholder.png" alt="">
+											</div>
+											<div class="placeholder-text">
+												Вы можете записаться<br>
+												на прием по телефону 
+											</div>
+											<div class="placeholder-phone">
+												<a href="tel:+78312600226">+7 (831) 26-00-226</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							
 						</div>
 					</div>
 				</div>

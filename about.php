@@ -310,12 +310,12 @@
 							</li>
 							<li>
 								<div class="youtube">
-									<div class="lazyframe" data-src="https://youtu.be/jI6cnYAvtvc" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
+									<div class="lazyframe" data-src="https://youtu.be/jI6cnYAvtvc" data-vendor="youtube" data-thumbnail="https://img.youtube.com/vi/jI6cnYAvtvc/0.jpg" data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
 								</div>
 							</li>
 							<li>
 								<div class="youtube">
-									<div class="lazyframe" data-src="https://youtu.be/oNxtwCr_FYg" data-vendor="youtube"  data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
+									<div class="lazyframe" data-src="https://youtu.be/oNxtwCr_FYg" data-vendor="youtube" data-thumbnail="https://img.youtube.com/vi/oNxtwCr_FYg/0.jpg" data-apikey="AIzaSyD6nx_6JhmKqhmFLTiJiMcNioQA9SO_2kA"></div>
 								</div>
 							</li>
 						</ul>
